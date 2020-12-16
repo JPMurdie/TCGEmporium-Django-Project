@@ -57,15 +57,16 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
 
 .dd-container {
     background: white;
     border-radius: .3em;
 }
 
-.input-group {
-    border-top-right-radius: .3em !important;
-}
+
 
 
 
