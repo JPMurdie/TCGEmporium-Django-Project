@@ -28,8 +28,8 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: lightgoldenrodyellow;
+    color: black;
     min-width: 260px;
 }
 
@@ -55,6 +55,12 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
+
+.text-gyellow {
+    color: lightgoldenrodyellow !important;
+}
+
+
 
 /* -------------------------------- Media Queries */
 
