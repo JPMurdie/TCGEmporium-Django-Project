@@ -28,7 +28,7 @@ body {
 }
 
 .shop-now-button {
-    background: lightgoldenrodyellow;
+    background: white;
     color: black;
     min-width: 260px;
 }
@@ -36,6 +36,7 @@ body {
 .btn-black {
     background: black;
     color: white;
+    border-radius: 0 .3em .3em 0;
 }
 
 .shop-now-button:hover,
@@ -56,9 +57,17 @@ body {
     border: 1px solid black !important;
 }
 
-.text-gyellow {
-    color: lightgoldenrodyellow !important;
+
+.dd-container {
+    background: white;
+    border-radius: .3em;
 }
+
+.input-group {
+    border-top-right-radius: .3em !important;
+}
+
+
 
 
 
