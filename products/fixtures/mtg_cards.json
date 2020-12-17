@@ -1,0 +1,60 @@
+﻿[
+  {
+    "pk": 1,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "ZNR-NORMAL-89-NM",
+      "name": "Acquisitions Expert",
+      "lang": "en",
+      "type_line": "Creature — Human Rogue",
+      "oracle_text": "When Acquisitions Expert enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+      "power": 1,
+      "toughness": 2,
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "set": "znr",
+      "set_name": "Zendikar Rising",
+      "set_type": "expansion",
+      "rarity": "uncommon",
+      "collector_number": "89",
+      "price": 0.1,
+      "artist": "Anna Steinbauer",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180",
+      "image": "acquisitions_expert_ZNR.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "PZNR-PROMO-220P-NM",
+      "name": "Akiri, Fearless Voyager",
+      "lang": "en",
+      "type_line": "Legendary Creature — Kor Warrior",
+      "oracle_text": "Whenever you attack a player with one or more equipped creatures, draw a card.\n{W}: You may unattach an Equipment from a creature you control. If you do, tap that creature and it gains indestructible until end of turn.",
+      "power": 3,
+      "toughness": 3,
+      "colors": [
+        "R",
+        "W"
+      ],
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "set": "pznr",
+      "set_name": "Zendikar Rising Promos",
+      "set_type": "promo",
+      "rarity": "rare",
+      "collector_number": "200P",
+      "price": 2.5,
+      "artist": "Ekaterina Burmak",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/a/2a29e2dc-180f-45e1-b5d5-5424da31198c.jpg?1607365098",
+      "image": "akiri_fearless_voyager_PZNR.jpg"
+    }
+  }
+]
