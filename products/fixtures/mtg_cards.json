@@ -16,12 +16,11 @@
       "color_identity": [
         "B"
       ],
-      "set": "znr",
-      "set_name": "Zendikar Rising",
-      "set_type": "expansion",
+      "mtg_set": 107,
       "rarity": "uncommon",
       "collector_number": "89",
       "price": 0.1,
+      "sales_category": 1,
       "artist": "Anna Steinbauer",
       "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180",
       "image": "acquisitions_expert_ZNR.jpg"
@@ -46,12 +45,11 @@
         "R",
         "W"
       ],
-      "set": "pznr",
-      "set_name": "Zendikar Rising Promos",
-      "set_type": "promo",
+      "mtg_set": 107,
       "rarity": "rare",
       "collector_number": "200P",
       "price": 2.5,
+      "sales_category": 1,
       "artist": "Ekaterina Burmak",
       "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/a/2a29e2dc-180f-45e1-b5d5-5424da31198c.jpg?1607365098",
       "image": "akiri_fearless_voyager_PZNR.jpg"

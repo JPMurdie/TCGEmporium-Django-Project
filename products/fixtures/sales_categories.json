@@ -1,0 +1,42 @@
+[
+  {
+    "pk": 1,
+    "model": "products.sales_category",
+    "fields": {
+      "name": "standard",
+      "friendly_name": "Standard"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.sales_category",
+    "fields": {
+      "name": "card_of_the_day",
+      "friendly_name": "Card of the Day"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.sales_category",
+    "fields": {
+      "name": "clearance",
+      "friendly_name": "Clearance"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.sales_category",
+    "fields": {
+      "name": "deals",
+      "friendly_name": "Deals"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.sales_category",
+    "fields": {
+      "name": "new_stock",
+      "friendly_name": "New Stock"
+    }
+  }
+]

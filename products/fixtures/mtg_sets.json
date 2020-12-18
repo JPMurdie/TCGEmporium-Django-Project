@@ -1,0 +1,858 @@
+[
+  {
+    "pk": 1,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "alpha_limited_edition",
+      "friendly_name": "Alpha (Limited Edition)"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "beta_limited_edition",
+      "friendly_name": "Beta (Limited Edition)"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "unlimited_edition",
+      "friendly_name": "Unlimited Edition"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "arabian_nights",
+      "friendly_name": "Arabian Nights"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "antiquities",
+      "friendly_name": "Antiquities"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "revised_edition",
+      "friendly_name": "Revised Edition"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "legends",
+      "friendly_name": "Legends"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "the_dark",
+      "friendly_name": "The Dark"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "fallen_empires",
+      "friendly_name": "Fallen Empires"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "fourth_edition",
+      "friendly_name": "Fourth Edition"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "ice_age",
+      "friendly_name": "Ice Age"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "homelands",
+      "friendly_name": "Homelands"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "alliances",
+      "friendly_name": "Alliances"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "mirage",
+      "friendly_name": "Mirage"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "visions",
+      "friendly_name": "Visions"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "fifth_edition",
+      "friendly_name": "Fifth Edition"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "weatherlight",
+      "friendly_name": "Weatherlight"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "tempest",
+      "friendly_name": "Tempest"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "stronghold",
+      "friendly_name": "Stronghold"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "exodus",
+      "friendly_name": "Exodus"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "urzas_saga",
+      "friendly_name": "Urza’s Saga"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "urzas_legacy",
+      "friendly_name": "Urza’s Legacy"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "sixth_edition",
+      "friendly_name": "Sixth Edition"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "urzas_destiny",
+      "friendly_name": "Urza’s Destiny"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "mercadian_masques",
+      "friendly_name": "Mercadian Masques"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "nemesis",
+      "friendly_name": "Nemesis"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "prophecy",
+      "friendly_name": "Prophecy"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "invasion",
+      "friendly_name": "Invasion"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "planeshift",
+      "friendly_name": "Planeshift"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "seventh_edition",
+      "friendly_name": "Seventh Edition"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "apocalypse",
+      "friendly_name": "Apocalypse"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "odyssey",
+      "friendly_name": "Odyssey"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "torment",
+      "friendly_name": "Torment"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "judgment",
+      "friendly_name": "Judgment"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "onslaught",
+      "friendly_name": "Onslaught"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "legions",
+      "friendly_name": "Legions"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "scourge",
+      "friendly_name": "Scourge"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "eight_edition",
+      "friendly_name": "Eighth Edition"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "mirrodin",
+      "friendly_name": "Mirrodin"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "darksteel",
+      "friendly_name": "Darksteel"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "fifth_dawn",
+      "friendly_name": "Fifth Dawn"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "champions_of_kamigawa",
+      "friendly_name": "Champions of Kamigawa"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "betrayers_of_kamigawa",
+      "friendly_name": "Betrayers of Kamigawa"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "saviors_of_kamigawa",
+      "friendly_name": "Saviors of Kamigawa"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "ninth_edition",
+      "friendly_name": "Ninth Edition"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "ravnica_city_of_guilds",
+      "friendly_name": "Ravnica: City of Guilds"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "guildpact",
+      "friendly_name": "Guildpact"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "dissension",
+      "friendly_name": "Dissension"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "coldsnap",
+      "friendly_name": "Coldsnap"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "time_spiral",
+      "friendly_name": "Time Spiral"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "planar_chaos",
+      "friendly_name": "Planar Chaos"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "future_sight",
+      "friendly_name": "Future Sight"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "tenth_edition",
+      "friendly_name": "Tenth Edition"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "lorwyn",
+      "friendly_name": "Lorwyn"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "morningtide",
+      "friendly_name": "Morningtide"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "shadowmoor",
+      "friendly_name": "Shadowmoor"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "eventide",
+      "friendly_name": "Eventide"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "shards_of_alara",
+      "friendly_name": "Shards of Alara"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "conflux",
+      "friendly_name": "Conflux"
+    }
+  },
+{
+    "pk": 60,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "alara_reborn",
+      "friendly_name": "Alara Reborn"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "magic_2010",
+      "friendly_name": "Magic 2010"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "zendikar",
+      "friendly_name": "Zendikar"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "worldwake",
+      "friendly_name": "Worldwake"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "rise_of_the_eldrazi",
+      "friendly_name": "Rise of the Eldrazi"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "magic_2011",
+      "friendly_name": "Magic 2011"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "scars_of_mirrodin",
+      "friendly_name": "Scars of Mirrodin"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "mirrodin_besieged",
+      "friendly_name": "Mirrodin Besieged"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "new_phyrexia",
+      "friendly_name": "New Phyrexia"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "magic_2012",
+      "friendly_name": "Magic 2012"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "innistrad",
+      "friendly_name": "Innistrad"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "dark_ascension",
+      "friendly_name": "Dark Ascension"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "avacyn_restored",
+      "friendly_name": "Avacyn Restored"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "magic_2013",
+      "friendly_name": "Magic 2013"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "return_to_ravnica",
+      "friendly_name": "Return to Ravnica"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "gatecrash",
+      "friendly_name": "Gatecrash"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "dragons_maze",
+      "friendly_name": "Dragon’s Maze"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "magic_2014",
+      "friendly_name": "Magic 2014"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "theros",
+      "friendly_name": "Theros"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "born_of_the_gods",
+      "friendly_name": "Born of the Gods"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "journey_into_nyx",
+      "friendly_name": "Journey into Nyx"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "conspiracy",
+      "friendly_name": "Conspiracy"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "magic_2015",
+      "friendly_name": "Magic 2015"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "khans_of_tarkir",
+      "friendly_name": "Khans of Tarkir"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "fate_reforged",
+      "friendly_name": "Fate Reforged"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "dragons_of_tarkir",
+      "friendly_name": "Dragons of Tarkir"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "magic_origins",
+      "friendly_name": "Magic Origins"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "battle_for_zendikar",
+      "friendly_name": "Battle for Zendikar"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "oath_of_the_gatewatch",
+      "friendly_name": "Oath of the Gatewatch"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "shadows_over_innistrad",
+      "friendly_name": "Shadows Over Innistrad"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "eldritch_moon",
+      "friendly_name": "Eldritch Moon"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "kaladesh",
+      "friendly_name": "Kaladesh"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "aether_revolt",
+      "friendly_name": "Aether Revolt"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "amonkhet",
+      "friendly_name": "Amonkhet"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "hour_of_devastation",
+      "friendly_name": "Hour of Devastation"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "ixalan",
+      "friendly_name": "Ixalan"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "rivals_of_ixalan",
+      "friendly_name": "Rivals of Ixalan"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "dominaria",
+      "friendly_name": "Dominaria"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "core_set_2019",
+      "friendly_name": "Core Set 2019"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "guilds_of_ravnica",
+      "friendly_name": "Guilds of Ravnica"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "ravnica_allegiance",
+      "friendly_name": "Ravnica Allegiance"
+    }
+  },
+  {
+    "pk": 101,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "war_of_the_spark",
+      "friendly_name": "War of the Spark"
+    }
+  },
+  {
+    "pk": 102,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "core_set_2020",
+      "friendly_name": "Core Set 2020"
+    }
+  },
+  {
+    "pk": 103,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "throne_of_eldraine",
+      "friendly_name": "Throne of Eldraine"
+    }
+  },
+  {
+    "pk": 104,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "theros_beyond_death",
+      "friendly_name": "Theros Beyond Death"
+    }
+  },
+  {
+    "pk": 105,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "ikoria_lair_of_behemoths",
+      "friendly_name": "Ikoria: Lair of Behemoths"
+    }
+  },
+  {
+    "pk": 106,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "core_set_2021",
+      "friendly_name": "Core Set 2021"
+    }
+  },
+  {
+    "pk": 107,
+    "model": "products.mtg_sets",
+    "fields": {
+      "name": "zendikar_rising",
+      "friendly_name": "Zendikar Rising"
+    }
+  }
+]
