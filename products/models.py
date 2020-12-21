@@ -23,18 +23,21 @@ class Mtg_Sets(models.Model):
         return self.friendly_name
 
 
+def jsonfield_default_value():  # This is a callable
+    return [0, 0]
+
 class Mtg_Cards(models.Model):
     sku = models.CharField(max_length=254, blank=True)
     name = models.CharField(max_length=254)
     lang = models.CharField(max_length=32, blank=True)
     type_line = models.CharField(max_length=254, blank=True)
-    oracle_text = models.CharField(max_length=254, blank=True)
-    power = models.CharField(max_length=8, blank=True)
-    toughness = models.CharField(max_length=8, blank=True)
-    colors = models.JSONField(default=list)
-    color_identity = models.JSONField(default=list)
+    oracle_text = models.CharField(max_length=1024, blank=True)
+    power = models.CharField(max_length=32, blank=True)
+    toughness = models.CharField(max_length=32, blank=True)
+    colors = models.JSONField(default=jsonfield_default_value)
+    color_identity = models.JSONField(default=jsonfield_default_value)
     mtg_set = models.ForeignKey('Mtg_Sets', null=True, blank=True, on_delete=models.SET_NULL)
-    rarity = models.CharField(max_length=8, blank=True)
+    rarity = models.CharField(max_length=32, blank=True)
     collector_number = models.CharField(max_length=8, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     sales_category = models.ForeignKey('Sales_Category', null=True, blank=True, on_delete=models.SET_NULL)
