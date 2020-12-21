@@ -8,8 +8,8 @@
       "lang": "en",
       "type_line": "Creature — Human Rogue",
       "oracle_text": "When Acquisitions Expert enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
-      "power": 1,
-      "toughness": 2,
+      "power": "1",
+      "toughness": "2",
       "colors": [
         "B"
       ],
@@ -35,8 +35,8 @@
       "lang": "en",
       "type_line": "Legendary Creature — Kor Warrior",
       "oracle_text": "Whenever you attack a player with one or more equipped creatures, draw a card.\n{W}: You may unattach an Equipment from a creature you control. If you do, tap that creature and it gains indestructible until end of turn.",
-      "power": 3,
-      "toughness": 3,
+      "power": "3",
+      "toughness": "3",
       "colors": [
         "R",
         "W"
