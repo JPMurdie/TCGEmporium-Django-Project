@@ -2,6 +2,10 @@ from django.db import models
 
 
 class Sales_Category(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Sales_Categories"
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -13,6 +17,10 @@ class Sales_Category(models.Model):
 
 
 class Mtg_Sets(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Mtg_Sets"
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -27,6 +35,10 @@ def jsonfield_default_value():  # This is a callable
     return [0, 0]
 
 class Mtg_Cards(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Mtg_Cards"
+
     sku = models.CharField(max_length=254, blank=True)
     name = models.CharField(max_length=254)
     lang = models.CharField(max_length=32, blank=True)
