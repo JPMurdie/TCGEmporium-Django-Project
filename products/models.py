@@ -34,6 +34,7 @@ class Mtg_Sets(models.Model):
 def jsonfield_default_value():  # This is a callable
     return [0, 0]
 
+
 class Mtg_Cards(models.Model):
 
     class Meta:
