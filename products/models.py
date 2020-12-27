@@ -45,6 +45,18 @@ Condition_Choices = (
     ('poor', 'Poor')
 )
 
+Foil_Choices = (
+    ('non_foil', 'Non-Foil'),
+    ('foil', 'Foil')
+)
+
+Collector_Choices = (
+    ('normal', 'Normal'),
+    ('showcase', 'Showcase'),
+    ('expedition', 'Expedition'),
+    ('textless', 'Textless')
+)
+
 
 class Mtg_Cards(models.Model):
 
@@ -62,9 +74,11 @@ class Mtg_Cards(models.Model):
     color_identity = models.JSONField(default=jsonfield_default_value)
     mtg_set = models.ForeignKey('Mtg_Sets', null=True, blank=True, on_delete=models.SET_NULL)
     rarity = models.CharField(max_length=32, blank=True)
+    card_condition = models.CharField(max_length=12, choices=Condition_Choices, default='mint')
+    card_print = models.CharField(max_length=12, choices=Foil_Choices, default='non_foil')
+    card_collection_type = models.CharField(max_length=12, choices=Collector_Choices, default='normal')
     collector_number = models.CharField(max_length=8, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
-    card_condition = models.CharField(max_length=12, choices=Condition_Choices, default='mint')
     sales_category = models.ForeignKey('Sales_Category', null=True, blank=True, on_delete=models.SET_NULL)
     artist = models.CharField(max_length=32, blank=True)
     image_url = models.URLField(max_length=1024, blank=True)
