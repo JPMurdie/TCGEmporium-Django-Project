@@ -5,7 +5,7 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?stocktype=new_stock" class="dropdown-item">New Stock</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -26,9 +26,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?dealtype=card_of_the_day" class="dropdown-item">Card of the Day</a>
-                <a href="{% url 'products' %}?dealtype=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?dealtype=card_of_the_day,clearance" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?stocktype=card_of_the_day" class="dropdown-item">Card of the Day</a>
+                <a href="{% url 'products' %}?stocktype=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?stocktype=card_of_the_day,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
