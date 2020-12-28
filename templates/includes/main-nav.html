@@ -6,6 +6,7 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?stocktype=new_stock" class="dropdown-item">New Stock</a>
+                <a href="{% url 'products' %}?sort=price&direction=desc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
