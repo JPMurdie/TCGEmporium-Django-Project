@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.db.models import Q
+from django.db.models.functions import Lower
 from .models import Mtg_Cards, Mtg_Sets, Sales_Category
 
 
@@ -21,10 +22,6 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-            if sortkey == 'stocktype':
-                sortkey = 'sales_category__name'
-            if sortkey == 'mtgexpansion':
-                sortkey = 'mtg_set__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':

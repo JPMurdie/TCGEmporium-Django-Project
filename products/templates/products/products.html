@@ -45,8 +45,6 @@
                                 <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
                                 <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
                                 <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
-                                <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
-                                <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
                             </select>
                         </div>
                     </div>
@@ -124,19 +122,41 @@
 {% endblock %}
 
 {% block postloadjs %}
-<script>
+    {{ block.super }}
+        <script type="text/javascript">
 
-    $('.hover-card').hover(function () {
-        $(this).parent().toggleClass('grey-fade');
-        $(this).siblings('.text-box').css('background-color', 'black');
-        $(this).siblings('.text-box').css('color', 'white');
-    })
+            $('#sort-selector').change(function() {
+                var selector = $(this);
+                var currentUrl = new URL(window.location);
 
-    $('.hover-card').mouseout(function () {
-        $(this).parent().removeClass('grey-fade');
-        $(this).siblings('.text-box').css('background-color', 'white');
-        $(this).siblings('.text-box').css('color', 'black');
-    });
+                var selectedVal = selector.val();
+                if(selectedVal != "reset"){
+                    var sort = selectedVal.split("_")[0];
+                    var direction = selectedVal.split("_")[1];
 
-</script>
+                    currentUrl.searchParams.set("sort", sort);
+                    currentUrl.searchParams.set("direction", direction);
+
+                    window.location.replace(currentUrl);
+                } else {
+                    currentUrl.searchParams.delete("sort", sort);
+                    currentUrl.searchParams.delete("direction", direction);
+
+                    window.location.replace(currentUrl);
+                }
+            })
+
+            $('.hover-card').hover(function () {
+                $(this).parent().toggleClass('grey-fade');
+                $(this).siblings('.text-box').css('background-color', 'black');
+                $(this).siblings('.text-box').css('color', 'white');
+            })
+
+            $('.hover-card').mouseout(function () {
+                $(this).parent().removeClass('grey-fade');
+                $(this).siblings('.text-box').css('background-color', 'white');
+                $(this).siblings('.text-box').css('color', 'black');
+            });
+
+        </script>
 {% endblock %}
