@@ -14,11 +14,11 @@
                 Magic Singles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Kaldheim</a>
-                <a href="" class="dropdown-item">Zendikar Rising</a>
-                <a href="" class="dropdown-item">Ikoria: Lair of Behemoths</a>
-                <a href="" class="dropdown-item">Battle for Zendikar</a>
-                <a href="" class="dropdown-item">All Singles</a>
+                <a href="{% url 'products' %}?category=kaldheim" class="dropdown-item">Kaldheim</a>
+                <a href="{% url 'products' %}?category=zendikar_rising" class="dropdown-item">Zendikar Rising</a>
+                <a href="{% url 'products' %}?category=ikoria_lair_of_behemoths" class="dropdown-item">Ikoria: Lair of Behemoths</a>
+                <a href="{% url 'products' %}?category=battle_for_zendikar" class="dropdown-item">Battle for Zendikar</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Singles</a>
             </div>
         </li>
         <li class="nav-item dropdown">

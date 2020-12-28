@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.db.models import Q
-from .models import Mtg_Cards
+from .models import Mtg_Cards, Mtg_Sets
 
 
 def all_products(request):
@@ -9,6 +9,13 @@ def all_products(request):
 
     products = Mtg_Cards.objects.all()
     query = None
+    mtg_expansions = None
+
+    if request.GET:
+        if 'category' in request.GET:
+            mtg_expansions = request.GET['category'].split(',')
+            products = products.filter(mtg_set__name__in=mtg_expansions)
+            mtg_expansions = Mtg_Sets.objects.filter(name__in=mtg_expansions)
 
     if request.GET:
         if 'q' in request.GET:
@@ -23,6 +30,7 @@ def all_products(request):
     context = {
         'products': products,
         'search_term': query,
+        'current_expansions': mtg_expansions,
     }
 
     return render(request, 'products/products.html', context)
