@@ -12,8 +12,8 @@ def all_products(request):
     mtg_expansions = None
 
     if request.GET:
-        if 'category' in request.GET:
-            mtg_expansions = request.GET['category'].split(',')
+        if 'mtgexpansion' in request.GET:
+            mtg_expansions = request.GET['mtgexpansion'].split(',')
             products = products.filter(mtg_set__name__in=mtg_expansions)
             mtg_expansions = Mtg_Sets.objects.filter(name__in=mtg_expansions)
 

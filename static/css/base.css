@@ -76,10 +76,17 @@ body {
     z-index: -1;
 }
 
+.grey-fade {
+    background-color: lightgray;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+    border-radius: 5px;
+}
 
-
-
-
+.text-box {
+    border-radius: 5px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
 
 /* -------------------------------- Media Queries */
 

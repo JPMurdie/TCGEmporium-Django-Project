@@ -14,10 +14,10 @@
                 Magic Singles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=kaldheim" class="dropdown-item">Kaldheim</a>
-                <a href="{% url 'products' %}?category=zendikar_rising" class="dropdown-item">Zendikar Rising</a>
-                <a href="{% url 'products' %}?category=ikoria_lair_of_behemoths" class="dropdown-item">Ikoria: Lair of Behemoths</a>
-                <a href="{% url 'products' %}?category=battle_for_zendikar" class="dropdown-item">Battle for Zendikar</a>
+                <a href="{% url 'products' %}?mtgexpansion=kaldheim" class="dropdown-item">Kaldheim</a>
+                <a href="{% url 'products' %}?mtgexpansion=zendikar_rising" class="dropdown-item">Zendikar Rising</a>
+                <a href="{% url 'products' %}?mtgexpansion=ikoria_lair_of_behemoths" class="dropdown-item">Ikoria: Lair of Behemoths</a>
+                <a href="{% url 'products' %}?mtgexpansion=battle_for_zendikar" class="dropdown-item">Battle for Zendikar</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Singles</a>
             </div>
         </li>
@@ -26,9 +26,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Deal of the Day</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?dealtype=card_of_the_day" class="dropdown-item">Card of the Day</a>
+                <a href="{% url 'products' %}?dealtype=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?dealtype=card_of_the_day,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
