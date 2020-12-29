@@ -107,10 +107,12 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-
-
 .btt-link {
     cursor: pointer;
+}
+
+.mtg-card {
+    border-radius: 15px;
 }
 
 /* -------------------------------- Media Queries */
