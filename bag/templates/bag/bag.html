@@ -9,7 +9,6 @@
         </div>
     </div>
 </div>
-
 {% endblock %}
 
 {% block content %}
@@ -22,9 +21,10 @@
             <hr>
         </div>
     </div>
+
     <div class="row">
         <div class="col">
-            { if bag_items %}
+            {% if bag_items %}
                 <div class="table-responsive rounded"></div>
             {% else %}
                 <p class="lead mb-5">Your bag is inside out!</p>
@@ -38,4 +38,4 @@
         </div>
     </div>
 </div>
-{% endblock%}
+{% endblock %}
