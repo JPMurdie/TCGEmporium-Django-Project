@@ -78,7 +78,7 @@
                             <div class="pt-0 border-0 text-left">
                                 <div class="row">
                                     <div class="col text-center">
-                                        <p class="lead mb-0 text-left font-weight-bold">£{{ product.price }}</p>
+                                        <p class="lead mb-0 text-center font-weight-bold">£{{ product.price }}</p>
                                         {% if product.sales_category %}
                                         <p class="small mt-1 mb-0">
                                             <a href="{% url 'products' %}?stocktype={{ product.sales_category.name }}"
