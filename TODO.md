@@ -10,6 +10,6 @@ Detail TODO:
 
 Functionality TODO:
     Needed:
-
+        Base postage price of £2.50 for all orders not within delivery offer.
     Would Like:
         Stock amount functionality for shop owner.
