@@ -10,6 +10,7 @@ def bag_contents(request):
     total = 0
     product_count = 0
     bag = request.session.get('bag', {})
+    delivery = Decimal(250 / 100)
 
     for item_id, quantity in bag.items():
         product = get_object_or_404(Mtg_Cards, pk=item_id)
@@ -22,7 +23,6 @@ def bag_contents(request):
         })
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
-        delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
         free_delivery_delta = settings.FREE_DELIVERY_THRESHOLD - total
     else:
         delivery = 0
