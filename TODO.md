@@ -15,4 +15,6 @@ Functionality TODO:
     Needed:
         1.Base postage price of £2.50 for all orders not within delivery offer.
     Would Like:
-        2.Stock amount functionality for shop owner.
+        1.Stock amount functionality for shop owner.
+        2. Loyalty points functionality.
+
