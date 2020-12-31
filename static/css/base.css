@@ -147,6 +147,15 @@ input[name='q']::placeholder {
     border-radius: .25rem;
 }
 
+.card-of-day {
+    background-color: #000;
+    color: white;
+}
+
+.card {
+    background-color: transparent !important;
+}
+
 
 /* ------------------------------- bootstrap toasts */
 

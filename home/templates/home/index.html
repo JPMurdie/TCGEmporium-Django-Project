@@ -13,9 +13,51 @@
 {% endblock %}
 
 {% block content %}
-<div class="container h-100">
+<div class="container h-100 mt-4">
     <div class="row h-100 text-center">
-        <div class="col-7 col-md-6 my-auto">
+        <div class="col-12 col-md-6 my-auto">
+            {% for product in products %}
+                {% if product.sales_category.friendly_name == "Card of the Day" %} 
+                    <div class="col-sm-12 col-md-6 offset-md-3 my-5">
+                        <div class="card h-100 border-0 p-sm-1 p-md-3 opacity-0h5">
+                            {% if product.image %}
+                                <a class="hover-card" href="{% url 'product_detail' product.id%}">
+                                    <img class="card-img-top img-fluid mtg-card" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                </a>
+                            {% else %}
+                                <a href="{% url 'product_detail' product.id%}">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                </a>
+                            {% endif %}
+                            <div class="text-box my-2 py-2 card-of-day">
+                                <div class="pb-0 text-center">
+                                    <p class="mb-0">{{ product.name }}</p>
+                                </div>
+                                <div class="pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <p class="lead mb-0 text-center font-weight-bold">£{{ product.price }}</p>
+                                                {% if product.sales_category %}
+                                                    <p class="mt-1 mb-0">
+                                                        <a href="{% url 'products' %}?stocktype={{ product.sales_category.name }}" class="text-success">
+                                                            <i class="fas fa-tag mr-1"></i>{{ product.sales_category.friendly_name }}!
+                                                        </a>
+                                                    </p>
+                                                {% endif %}
+                                                {% if request.user.is_superuser %}
+                                                    <small class="ml-3">
+                                                        <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                    </small>
+                                                {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}    
+            {% endfor %}
             <div class="my-5">
                 <h4>
                     <a href="{% url 'products' %}?stocktype=new_stock" class="shop-now-button btn btn-lg rounded-5 text-uppercase py-3">Shop New Stock Now!</a>
