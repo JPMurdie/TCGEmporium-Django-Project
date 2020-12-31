@@ -1,0 +1,183 @@
+[
+  {
+    "pk": 2,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "ZNR-NORMAL-89",
+      "name": "Acquisitions Expert",
+      "lang": "EN",
+      "type_line": "Creature — Human Rogue",
+      "oracle_text": "When Acquisitions Expert enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.",
+      "mtg_set": 107,
+      "rarity": "Common",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 89,
+      "price": "0.25",
+      "sales_category": 4,
+      "artist": "Anna Steinbauer",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180",
+      "image": "acquisitions_expert_ZNR.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "IKO-NORMAL-21",
+      "name": "Luminous Broodmoth",
+      "lang": "EN",
+      "type_line": "Creature — Insect",
+      "oracle_text": "Flying . Whenever a creature you control without flying dies, return it to the battlefield under its owner’s control with a flying counter on it.",
+      "mtg_set": 105,
+      "rarity": "Mythic",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 21,
+      "price": "4.99",
+      "sales_category": 4,
+      "artist": "Lie Setiawan",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1591230310",
+      "image": "luminous_broodmoth_IKO.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "IKO-NORMAL-125",
+      "name": "Lukka, Coppercoat Outcast",
+      "lang": "EN",
+      "type_line": "Legendary Planeswalker - Lukka",
+      "oracle_text": "",
+      "mtg_set": 105,
+      "rarity": "Mythic",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 125,
+      "price": "14.99",
+      "sales_category": 2,
+      "artist": "Chris Rallis",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/75798fdf0-d178-43d9-b821-8f3f654654b4.jpg?1591227292",
+      "image": "lukka_coppercoat_outcast_IKO.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "BFZ-NORMAL-15",
+      "name": "Ulamog, the Ceaseless Hunger",
+      "lang": "EN",
+      "type_line": "Legendary Creature — Eldrazi",
+      "oracle_text": "When you cast this spell, exile two target permanents.  Indestructible.  Whenever Ulamog, the Ceaseless Hunger attacks, defending player exiles the top twenty cards of their library.",
+      "mtg_set": 87,
+      "rarity": "Mythic",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 15,
+      "price": "9.99",
+      "sales_category": 3,
+      "artist": "Michael Komarck",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/1/1/1192f7a9-102e-4b3a-b154-18c8eb332217.jpg?1562899233",
+      "image": "ulamog_the_ceaseless_hunger_BFZ.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "BFZ-NORMAL-209",
+      "name": "Bring to Light",
+      "lang": "EN",
+      "type_line": "Sorcery",
+      "oracle_text": "Converge — Search your library for a creature, instant, or sorcery card with converted mana cost less than or equal to the number of colors of mana spent to cast this spell, exile that card, then shuffle your library. You may cast that card without paying its mana cost.",
+      "mtg_set": 87,
+      "rarity": "Rare",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 209,
+      "price": "2.49",
+      "sales_category": 1,
+      "artist": "Jonas De Ro",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/2/d25b13a4-6282-4426-8b01-9550f7d52d16.jpg?1562945077",
+      "image": "bring_to_light_BFZ.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "ZNR-NORMAL-232",
+      "name": "Omnath, Locus of Creation",
+      "lang": "EN",
+      "type_line": "Legendary Creature — Elemental",
+      "oracle_text": "When Omnath, Locus of Creation enters the battlefield, draw a card.  Landfall — Whenever a land enters the battlefield under your control, you gain 4 life if this is the first time this ability has resolved this turn. If it’s the second time, add {R}{G}{W}{U}. If it’s the third time, Omnath deals 4 damage to each opponent and each planeswalker you don’t control.",
+      "mtg_set": 107,
+      "rarity": "Mythic",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 232,
+      "price": "0.01",
+      "sales_category": 3,
+      "artist": "Chris Rahn",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/e/4e4fb50c-a81f-44d3-93c5-fa9a0b37f617.jpg?1606762164",
+      "image": "omnath_locus_of_creation_ZNR.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "ZNR-NORMAL-2",
+      "name": "Angel of Destiny",
+      "lang": "EN",
+      "type_line": "Creature - Angel Cleric",
+      "oracle_text": "Flying, double strike  Whenever a creature you control deals combat damage to a player, you and that player each gain that much life.  At the beginning of your end step, if you have at least 15 life more than your starting life total, each player Angel of Destiny attacked this turn loses the game.",
+      "mtg_set": 107,
+      "rarity": "Mythic",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 2,
+      "price": "1.49",
+      "sales_category": 1,
+      "artist": "Ryan Pancoast",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/8/9897074a-0ac4-4d1a-9aac-e77830cc5c78.jpg?1604195368",
+      "image": "angel_of_destiny_ZNR.jpg"
+    }
+  },
+  {
+    "      pk": 14,
+    "model": "products.mtg_cards",
+    "fields": {
+      "sku": "ZNR-NORMAL-66",
+      "name": "Lullmage's Domination",
+      "lang": "EN",
+      "type_line": "Sorcery",
+      "oracle_text": "This spell costs {3} less to cast if it targets a creature whose controller has eight or more cards in their graveyard.  Gain control of target creature with converted mana cost X.",
+      "mtg_set": 107,
+      "rarity": "Uncommon",
+      "card_condition": "mint",
+      "card_print": "non_foil",
+      "card_collection_type": "normal",
+      "collector_number": 66,
+      "price": "0.20",
+      "sales_category": 1,
+      "artist": "Zezhou Chen",
+      "image_url": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/9/c9944393-348f-4f0e-a0c7-9adcc5a30749.jpg?1604194383",
+      "image": "lullmages_domination_ZNR.jpg"
+    }
+  }
+]
+
+
+
+
+
