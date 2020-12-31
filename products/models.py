@@ -80,7 +80,7 @@ class Mtg_Cards(models.Model):
     card_condition = models.CharField(max_length=12, choices=Condition_Choices, default='mint')
     card_print = models.CharField(max_length=12, choices=Foil_Choices, default='non_foil')
     card_collection_type = models.CharField(max_length=12, choices=Collector_Choices, default='normal')
-    collector_number = models.CharField(max_length=8, choices=[(x, x) for x in range(1, 500)], default=1)
+    collector_number = models.IntegerField(choices=[(x, x) for x in range(1, 500)], default=1)
     price = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, default=0)
     sales_category = models.ForeignKey('Sales_Category', null=True, blank=True, on_delete=models.SET_NULL)
     artist = models.CharField(max_length=32, blank=True)
