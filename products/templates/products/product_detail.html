@@ -42,6 +42,8 @@
                 </p>
                 {% endif %}
                 <p class="mb-0 my-2"><strong>Oracle Text:</strong> {{ product.oracle_text }}</p>
+                <p class="mb-0 my-2"><strong>Rarity:</strong> {{ product.rarity }}</p>
+                <p class="mb-0 my-2"><strong>Artist:</strong> {{ product.artist }}</p>
                 {% if request.user.is_superuser %}
                 <small class="ml-3">
                     <a href="{% url 'edit_product' product.id %}">Edit</a> |

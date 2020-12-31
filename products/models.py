@@ -58,10 +58,10 @@ Collector_Choices = (
 )
 
 Rarity_Choices = (
-    ('common', 'Common'),
-    ('uncommon', 'Unommon'),
-    ('rare', 'Rare'),
-    ('mythic', 'Mythic'),
+    ('Common', 'common'),
+    ('Uncommon', 'uncommon'),
+    ('Rare', 'rare'),
+    ('Mythic', 'mythic'),
 )
 
 
