@@ -57,28 +57,31 @@ Collector_Choices = (
     ('textless', 'Textless')
 )
 
+Rarity_Choices = (
+    ('common', 'Common'),
+    ('uncommon', 'Unommon'),
+    ('rare', 'Rare'),
+    ('mythic', 'Mythic'),
+)
+
 
 class Mtg_Cards(models.Model):
 
     class Meta:
         verbose_name_plural = "Mtg_Cards"
 
-    sku = models.CharField(max_length=254, blank=True)
-    name = models.CharField(max_length=254)
+    sku = models.CharField(max_length=254, blank=False)
+    name = models.CharField(max_length=254, blank=False)
     lang = models.CharField(max_length=32, blank=True)
     type_line = models.CharField(max_length=254, blank=True)
     oracle_text = models.CharField(max_length=1024, blank=True)
-    power = models.CharField(max_length=32, blank=True)
-    toughness = models.CharField(max_length=32, blank=True)
-    colors = models.JSONField(default=jsonfield_default_value)
-    color_identity = models.JSONField(default=jsonfield_default_value)
     mtg_set = models.ForeignKey('Mtg_Sets', null=True, blank=True, on_delete=models.SET_NULL)
-    rarity = models.CharField(max_length=32, blank=True)
+    rarity = models.CharField(max_length=32, choices=Rarity_Choices, default='common')
     card_condition = models.CharField(max_length=12, choices=Condition_Choices, default='mint')
     card_print = models.CharField(max_length=12, choices=Foil_Choices, default='non_foil')
     card_collection_type = models.CharField(max_length=12, choices=Collector_Choices, default='normal')
-    collector_number = models.CharField(max_length=8, blank=True)
-    price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=False)
+    collector_number = models.CharField(max_length=8, choices=[(x, x) for x in range(1, 500)], default=1)
+    price = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, default=0)
     sales_category = models.ForeignKey('Sales_Category', null=True, blank=True, on_delete=models.SET_NULL)
     artist = models.CharField(max_length=32, blank=True)
     image_url = models.URLField(max_length=1024, blank=True)
