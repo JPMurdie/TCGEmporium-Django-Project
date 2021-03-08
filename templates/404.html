@@ -5,13 +5,20 @@
 <div class="container header-container">
     <div class="row">
         <div class="col">
-            Test - Page
+            
         </div>
     </div>
 </div>
-
 {% endblock %}
 
 {% block content %}
-
+<div class="overlay"></div>
+<div class="jumbotron">
+  <h1 class="display-4">Oh, No!</h1>
+  <p class="lead">There is an error with this page or it no longer exists!</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="{% url 'home' %}" role="button">Return Home</a>
+  </p>
+</div>
 {% endblock%}
